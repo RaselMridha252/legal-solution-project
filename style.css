@@ -9,3 +9,7 @@
 .bg{
     background-color: brown;
 }
+
+.img{
+  background-image: url(./images/banner.png);
+}
