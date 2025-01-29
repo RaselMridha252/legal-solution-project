@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>legal solution</title>
+    <!-- EB Garamond font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
 
     <!-- tailwind css cdn -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
@@ -11,6 +16,7 @@
     <style type="text/tailwindcss">
         @theme {
           --color-clifford: #da373d;
+          --font-display: "EB Garamond", serif;
         }
 
         btn-primary{
@@ -24,15 +30,11 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- EB Garamond font cdn -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
-
+    
     <!-- css style link -->
      <link rel="stylesheet" href="style.css">
 </head>
-<body class="eb-garamond-font">
+<body class="font-display">
     <header>
         <!-- navbar section -->
          <nav class="max-w-5xl mx-auto my-12">
@@ -100,11 +102,11 @@
          </nav>
 
          <!-- banner section  -->
-          <section class="bg-gradient-to-t from-indigo-950 to-pink-950">
+          <section class="">
             
-            <dir class="relative max-w-5xl mx-auto">
+            <div class="relative bg-[url('./images/banner.png')] max-w-5xl mx-auto">
               <!-- image section -->
-              <img src="./images/banner.png" alt="">
+              <!-- <img src="./images/banner.png" alt=""> -->
 
              <!-- text section -->
               <div class="absolute text-white text-center mx-44 top-24">
@@ -115,7 +117,7 @@
                 <button class="btn ml-4 bg-[#B68C5A] font-semibold text-xl text-white">Search</button>
                 </div>
               </div>
-            </dir>
+            </div>
            
           </section>
           
